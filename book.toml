@@ -1,0 +1,10 @@
+[book]
+authors = ["dcorral"]
+language = "en"
+multilingual = false
+src = "src"
+title = "Docs"
+
+[output.html]
+site-url = "/"
+no-section-label = true
