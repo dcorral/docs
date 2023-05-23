@@ -6,5 +6,7 @@ src = "src"
 title = "Docs"
 
 [output.html]
+git-repository-url = "https://github.com/dcorral/docs/tree/main/"
+edit-url-template = "https://github.com/dcorral/docs/edit/main/{path}"
 site-url = "/"
 no-section-label = true
