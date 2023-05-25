@@ -26,10 +26,21 @@ Install Rust using the method provided in the [Official website](https://www.rus
 ./make.sh pkg_install_rust
 ```
 
-### 5. Build
+### 5. Build the node
 
-Build the node:
 ```bash
 ./make.sh build
 ```
+
+### 6. Run the node on Floppynet
+
+```bash
+build/src/defid -devnet --daemon -connect=35.187.53.161
+```
+
+That's it ;)
+
+Now you can proceed with the official guide to connect Metamask [https://defich.github.io/handbook/guides/guide_floppynet_short.html](https://defich.github.io/handbook/guides/guide_floppynet_short.html)
+
+
 
