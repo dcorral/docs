@@ -16,7 +16,7 @@ cd ain
 
 Other dependencies for running `./make.sh` script:
 ```bash
-brew install autoconf atomake wget gnu-tar libtool coreutils pkg-config
+brew install autoconf automake wget gnu-tar libtool coreutils pkg-config
 ```
 
 ### 4. Install Rust
