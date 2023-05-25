@@ -141,24 +141,25 @@
                 <div id="content" class="content">
                     <main>
                         <h1 id="build-defichain-node-in-macos"><a class="header" href="#build-defichain-node-in-macos">Build DeFiChain Node In MacOS</a></h1>
-<h3 id="get-the-source-code"><a class="header" href="#get-the-source-code">Get the source code</a></h3>
+<h3 id="1-install-xcode-command-line-tools"><a class="header" href="#1-install-xcode-command-line-tools">1. Install Xcode Command Line Tools:</a></h3>
+<pre><code class="language-bash">xcode-select –install
+</code></pre>
+<h3 id="2-get-the-source-code"><a class="header" href="#2-get-the-source-code">2. Get the source code</a></h3>
 <pre><code class="language-bash">git clone -b feature/evm https://github.com/defich/ain
 cd ain
 </code></pre>
-<h3 id="compile-the-node"><a class="header" href="#compile-the-node">Compile the node</a></h3>
-<p>Install Xcode Command Line Tools:</p>
-<pre><code class="language-bash">xcode-select –install
-</code></pre>
+<h3 id="3-install-build-dependencies"><a class="header" href="#3-install-build-dependencies">3. Install build dependencies</a></h3>
 <p>Other dependencies for running <code>./make.sh</code> script:</p>
 <pre><code class="language-bash">brew install autoconf atomake wget gnu-tar libtool coreutils pkg-config
 </code></pre>
+<h3 id="4-install-rust"><a class="header" href="#4-install-rust">4. Install Rust</a></h3>
 <p>Install Rust using the method provided in the <a href="https://www.rust-lang.org/tools/install">Official website</a> or run the following command:</p>
 <pre><code class="language-bash">./make.sh pkg_install_rust
 </code></pre>
+<h3 id="5-build"><a class="header" href="#5-build">5. Build</a></h3>
 <p>Build the node:</p>
 <pre><code class="language-bash">./make.sh build
 </code></pre>
-<p>This command will compile the node dependencies and the node itself. Beware that this will take some time in the first run as it will download all the source code of the libraries needed.</p>
 
                     </main>
 
